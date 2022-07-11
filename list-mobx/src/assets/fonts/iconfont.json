@@ -1,0 +1,65 @@
+{
+  "id": "3468209",
+  "name": "qunar-task",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4767012",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    },
+    {
+      "icon_id": "12011697",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "29950",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "146465",
+      "name": "calendar",
+      "font_class": "calendar",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "696102",
+      "name": "费用",
+      "font_class": "price",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "6598352",
+      "name": "swap-right",
+      "font_class": "swap-right",
+      "unicode": "e8f1",
+      "unicode_decimal": 59633
+    },
+    {
+      "icon_id": "15838482",
+      "name": "filter",
+      "font_class": "filter",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "18531286",
+      "name": "exchange",
+      "font_class": "exchange",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    }
+  ]
+}

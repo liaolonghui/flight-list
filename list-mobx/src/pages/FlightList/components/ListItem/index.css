@@ -1,0 +1,125 @@
+.flight-list .list-item {
+  display: flex;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(197, 197, 197, 0.3);
+  position: relative;
+}
+
+.flight-list .item-info {
+  flex: 5;
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flight-list .company-info {
+  margin-top: 8px;
+}
+
+.flight-list .time-font {
+  font-size: 20px;
+  color: #000;
+}
+
+.flight-list .airpot-info {
+  width: 100%;
+  display: flex;
+}
+
+.flight-list .from-info {
+  flex: 1;
+  text-align: left;
+}
+
+.flight-list .time-info {
+  flex: 1;
+  text-align: center;
+}
+
+.flight-list .to-info {
+  flex: 1;
+  text-align: right;
+  position: relative;
+}
+
+.flight-list .from-place,
+.flight-list .to-place {
+  margin: 6px 0;
+}
+
+.flight-list .add-day {
+  position: absolute;
+  left: 5px;
+  top: -6px;
+  color: #ff8205;
+  font-size: 12px;
+}
+
+.flight-list .time {
+  display: inline-block;
+  font-size: 12px;
+  transform: scale(0.8);
+}
+
+.flight-list .plane-info {
+  position: relative;
+  height: 12px;
+}
+
+.flight-list .arrow-right {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+
+.flight-list .arrow-right::after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #999;
+  transform-origin: bottom right;
+  transform: rotate(-60deg);
+  float: right;
+}
+
+.flight-list .plane-info-icon {
+  display: block;
+  font-size: 12px;
+  color: #1ba9ba;
+  background-color: #fbfbfb;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: scale(0.8) translateX(-50%);
+}
+
+.flight-list .price1 {
+  flex: 2;
+  text-align: right;
+  color: #ff8205;
+  display: flex;
+  flex-direction: column;
+}
+
+.flight-list .price-info {
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+}
+
+.flight-list .price-icon {
+  font-size: 15px;
+  line-height: 15px;
+  height: 15px;
+}
+
+.flight-list .more-info {
+  color: #999;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 6px;
+}

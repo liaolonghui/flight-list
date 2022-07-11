@@ -1,0 +1,45 @@
+.flight-list .flight-filter {
+  font-size: 12px;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgba(197, 197, 197, 0.3);
+  background: #f8f8f8;
+  position: fixed;
+  bottom: 0;
+  transition: .3s;
+  z-index: 3;
+}
+
+.flight-list .flight-filter.hidden {
+  bottom: -50px;
+}
+
+.flight-filter .filter-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #999;
+}
+
+.flight-filter .filter-item.active {
+  color: #1ba9ba;
+}
+
+.flight-filter .filter-item {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flight-filter .iconfont {
+  font-size: 20px;
+}

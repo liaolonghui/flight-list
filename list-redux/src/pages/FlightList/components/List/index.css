@@ -1,0 +1,78 @@
+.flight-list .list {
+  padding: 5px 0;
+}
+
+#m-loading .camel-loading {
+  width: 200px;
+  height: 180px;
+  top: 100px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#m-loading .camel-loading:before {
+  display: block;
+  content: " ";
+  position: relative;
+  top: 8%;
+  left: 8%;
+  width: 84%;
+  min-height: 84%;
+  background: url(../../../../assets/images/LoadingCamelBG.png) center center no-repeat;
+  background-size: contain;
+  transform-origin: 50% 50% 0;
+  animation: camel-loading-earth-rotate 35s linear 0s infinite;
+}
+
+@keyframes camel-loading-earth-rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#m-loading .camel-loading:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: -6px;
+  overflow: hidden;
+  background: url(../../../../assets/images/camel.gif) 50% 8% no-repeat;
+  background-size: 30%;
+}
+
+#m-loading .text {
+  font-size: 12px;
+  color: #25a4bb;
+  margin-top: -20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#m-loading .text:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(circle at center 0, rgba(255, 255, 255, 0.1) 30%, #fff 35%);
+}
+
+.flight-list .not-fount-flight {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.flight-list .load-fail img {
+  width: 120px;
+  margin-bottom: 25px;
+}
